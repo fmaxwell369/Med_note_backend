@@ -147,3 +147,15 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Bases de données médicales et sauvegardes
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.backup
+*.backup.db
+
+# Fichiers de configuration locaux
+.DS_Store
+.vscode/
